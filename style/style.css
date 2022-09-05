@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+  font-family: "kameron";
+}
+
+html li {
+  list-style-type: none;
+}
+html body {
+  background-color: rgba(33, 33, 33, 0.7607843137);
+}
+html body section.kalender {
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+}
+html body section.kalender ul.titel_items {
+  padding: 1ch;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 3fr;
+}
+html body section.kalender ul.titel_items li.titel_item {
+  background-color: rgba(117, 117, 117, 0.6352941176);
+  flex: 1;
+  padding: 1ch;
+}
+html body section.kalender ul.titel_items li.titel_datum {
+  text-align: end;
+}
+html body section.kalender ul.todo_items {
+  padding: 1ch;
+  display: grid;
+  grid-gap: 2ch;
+  align-content: space-around;
+}
+html body section.kalender ul.todo_items li.todo_item {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 3fr;
+  background-color: rgba(117, 117, 117, 0.6352941176);
+}
+html body section.kalender ul.todo_items li.todo_item p.todo_item_content {
+  align-self: center;
+  text-align: center;
+  justify-self: end;
+}
+html body section.kalender ul.todo_items li.todo_item input.todo_item_content {
+  width: 80%;
+  align-self: center;
+  justify-self: center;
+  margin: 0.3rem;
+}
+
+/*# sourceMappingURL=style.css.map */
